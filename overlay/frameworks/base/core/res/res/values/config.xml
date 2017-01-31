@@ -174,7 +174,10 @@
     <bool name="config_supportDoubleTapWake">true</bool>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8129423... Add Doze Service and Ambient Display.
     <!-- Enable doze mode
          ComponentName of a dream to show whenever the system would otherwise have gone to sleep. -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
@@ -187,9 +190,12 @@
     <!-- If true, the doze component is not started until after the screen has been
           turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOff">true</bool>
+<<<<<<< HEAD
     
     <!--Add NightDisplay-->
     <bool name="config_nightDisplayAvailable">true</bool>
+=======
+>>>>>>> 8129423... Add Doze Service and Ambient Display.
 
     <!-- Power Management: Specifies whether to decouple the interactive state of the
          device from the display on/off state.
@@ -204,7 +210,10 @@
          to maximize power savings but not all devices support it.
          Refer to power.h for details. -->
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+<<<<<<< HEAD
 >>>>>>> e571d82... Fix Night Light
+=======
+>>>>>>> 8129423... Add Doze Service and Ambient Display.
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/system/framework/arm64/boot-framework.oat"</item>
