@@ -26,3 +26,5 @@ TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
 # Bootanimation optimizations
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
+
+TARGET_SYSTEM_PROP += device/yu/tomato/system.prop
