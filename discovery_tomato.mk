@@ -15,7 +15,7 @@
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/discovery/common.mk)
+$(call inherit-product, vendor/discovery/common_full_tomato.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
